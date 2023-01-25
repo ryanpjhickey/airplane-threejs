@@ -30,19 +30,19 @@ airplane-three.js is an experimental project for me to mess around with and get 
 
 ## Links
 
-https://github.com/ryanpjhickey/beauty2door
+https://github.com/ryanpjhickey/airplane-threejs
 
 ---
 
 ## Screenshot:
 
-![image](https://user-images.githubusercontent.com/108383347/214478099-72de1204-e3dd-46e2-9748-9d734a8ad8d7.png)
+
 
 #
 
 ## User-Instructions
 
-A user can create an account, browse skincare and beauty products, learn more about their skincare routines, and purchase beauty boxes. 
+A user can fly around with a mouse cursor controlled airplane.
 
 ---
 
