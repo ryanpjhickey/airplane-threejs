@@ -30,7 +30,7 @@ airplane-three.js is an experimental project for me to mess around with and get 
 
 ## Links
 
-https://github.com/ryanpjhickey/airplane-threejs
+https://ryanpjhickey.github.io/airplane-threejs/
 
 ---
 
