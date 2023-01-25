@@ -9,6 +9,7 @@ var Colors = {
 	pink:0xF5986E,
 	brownDark:0x23190f,
 	blue:0x68c3c0,
+	green: 0x228B22,
 };
 
 window.addEventListener('load', init, false);
@@ -385,7 +386,7 @@ var AirPlane = function() {
 	// Cockpit
 
   var geomCockpit = new THREE.BoxGeometry(80,50,50);
-  var matCockpit = new THREE.MeshPhongMaterial({color:Colors.red, shading:THREE.FlatShading});
+  var matCockpit = new THREE.MeshPhongMaterial({color:Colors.green, shading:THREE.FlatShading});
 
   // we can access a specific vertex of a shape through 
   // the vertices array, and then move its x, y and z property:
@@ -415,7 +416,7 @@ var AirPlane = function() {
 	
 	// Create the tail
 	var geomTailPlane = new THREE.BoxGeometry(15,20,5,1,1,1);
-	var matTailPlane = new THREE.MeshPhongMaterial({color:Colors.red, shading:THREE.FlatShading});
+	var matTailPlane = new THREE.MeshPhongMaterial({color:Colors.green, shading:THREE.FlatShading});
 	var tailPlane = new THREE.Mesh(geomTailPlane, matTailPlane);
 	tailPlane.position.set(-35,25,0);
 	tailPlane.castShadow = true;
@@ -424,7 +425,7 @@ var AirPlane = function() {
 	
 	// Create the wing
 	var geomSideWing = new THREE.BoxGeometry(40,8,150,1,1,1);
-	var matSideWing = new THREE.MeshPhongMaterial({color:Colors.red, shading:THREE.FlatShading});
+	var matSideWing = new THREE.MeshPhongMaterial({color:Colors.green, shading:THREE.FlatShading});
 	var sideWing = new THREE.Mesh(geomSideWing, matSideWing);
 	sideWing.castShadow = true;
 	sideWing.receiveShadow = true;
