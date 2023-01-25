@@ -1,7 +1,0 @@
-#world {
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  background: linear-gradient(rgb(131, 88, 211), rgb(68, 17, 17));
-}
